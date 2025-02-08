@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
   int c, first, last, middle, n, search, array[100];
@@ -6,7 +7,7 @@ int main()
   printf("Enter number of elements\n");
   scanf("%d", &n);
 
-  printf("Enter %d integers\n", n);
+  printf("Enter %d integers in increasing order ie: 1 2 3 4 5 6 7.....\n", n);
 
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
